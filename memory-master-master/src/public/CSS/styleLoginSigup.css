@@ -19,6 +19,15 @@ input {
   overflow: hidden;
 }
 
+nav {
+  height: var(--header-height);
+  margin: 10px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .forms-container {
   position: absolute;
   width: 100%;

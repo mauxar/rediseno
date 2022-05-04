@@ -155,7 +155,7 @@ app.get('/menu', function(request, response) {
 
 	if (request.session.loggedin) {
     var html= "";
-    /*
+  /*  
 html+="<!DOCTYPE html>";
 html+="<html lang='en'>";
 html+="  <head>";
@@ -209,7 +209,7 @@ html+="    </header>";
 html+="  </body>";
 html+="</html>";
 html+="";*/
-
+/*
 
 html+="<!DOCTYPE html>";
 html+="<html lang='en'>";
@@ -281,7 +281,67 @@ html+="        </div>";
 html+="    </header>";
 html+="";
 html+="</body>";
-html+="</html>";
+html+="</html>";*/
+
+html+="<!DOCTYPE html>";
+html+="<html lang='en'>";
+html+="<head>";
+html+="    <meta charset='UTF-8'>";
+html+="    <meta http-equiv='X-UA-Compatible' content='IE=edge'>";
+html+="    <meta name='viewport' content='width=device-width, initial-scale=1.0'>";
+html+="    <link rel='shortcut icon' href='./img/pngwing.com.png'> ";
+html+="    <link rel='stylesheet' href='./CSS/menu.css'>";
+html+="    <title>Menu</title>";
+html+="</head>";
+html+="<body>";
+html+="    <header class='bg_animate'>";
+html+="";
+html+="        <nav>";
+html+="            <h1>MemoryMaster</h1>";
+html+="            <div class='nav__list'>";
+html+="                <a href='perfil.html'>Perfil</a>";
+html+="                <a href='login.html' >Cerrar Sesión</a>";
+html+="";
+html+="            </div>";
+html+="        </nav>";
+html+="";
+html+="        <section>";
+html+="            <div class='one contenedor'>";
+html+="                <a href='./Estresado.html' class='llamanos'>";
+html+="                   <div class='caja'>";
+html+="                   Juegos para Desestresar";
+html+="                    </div>";
+html+="              </a>";
+html+="              <a href='tipodememoria.html' class='llamanos'>";
+html+="                    <div class='caja'>";
+html+="                  Juegos de Memoria";
+html+="                    </div>";
+html+="                </a>";
+html+="                <a href='https://charsito12.herokuapp.com' class='llamanos'>";
+html+="                    <div class='caja'>";
+html+="                    Chat";
+html+="                    </div>";
+html+="                </a>";
+html+="            </div>    ";
+html+="            <div class='dos'>";
+html+="                <img src='./img/kisspng-4-pics-1-word-word-brain-thought-action-game-snoring-transparent-png-5a76bf36785379.6988479815177316384929.png' alt='relax'>";
+html+="            </div>        ";
+html+="        </section>";
+html+="";
+html+="        <div class='burbujas'>";
+html+="            <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="           <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="            <div class='burbuja'></div>";
+html+="        </div>";
+html+="    </header>";
+	
 
 
 		response.send(html);

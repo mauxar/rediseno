@@ -140,7 +140,7 @@ app.post('/auth', function(request, response) {
 
 
 //establecemos el servidor
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 4000);
 
 //configurar los middlewares se ejecutan antes de que vengan las peticiones del cliente
 //vamos registrar las peticiones que llegan antes de procesarlas
